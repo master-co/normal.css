@@ -65,7 +65,6 @@ module.exports = env => {
         output: {
             clean: true
         },
-        devtool: 'source-map',
         plugins: [
             new Webpack.ProgressPlugin(),
             new FixStyleOnlyEntriesPlugin(),
