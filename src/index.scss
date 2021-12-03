@@ -31,13 +31,12 @@ strong {
     font-weight: bolder;
 }
 
-* {
+*,
+::before,
+::after {
     box-sizing: border-box;
-    background-origin: border-box;
-    text-rendering: geometricPrecision;
 }
 
-hr {
-    height: 0;
-    color: inherit;
+* {
+    text-rendering: geometricPrecision;
 }
