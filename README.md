@@ -8,6 +8,7 @@
 - Geometric precision rendering for prettier text
 - Antialiased font smoothing looks great
 - Prettier default sans and mono font
+- Remove body margin
 - `line-height: 1.2`
 - `box-sizing: border-box`
 - `tab-size: 4`
