@@ -6,14 +6,21 @@
     "main": "index.css",
     "private": false,
     "funding": "https://opencollective.com/master-style",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/master-style/normal.css.git"
+    },
     "keywords": [
         "normalize",
         "browser",
         "style",
-        "css"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/master-style/normal.css.git"
-    }
+        "css",
+        "font",
+        "smoothing",
+        "box-sizing",
+        "text",
+        "rendering",
+        "lightweight",
+        "antialiased"
+    ]
 }
