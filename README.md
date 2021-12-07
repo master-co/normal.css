@@ -1,9 +1,9 @@
 ###### CONTENTS
-- [Features](#features)
+- [Feature](#feature)
 - [Install](#install)
 - [Usage](#usage)
 
-# Features
+# Feature
 - Less than **< 1 KB**
 - Geometric precision rendering for prettier text
 - Antialiased font smoothing looks great
