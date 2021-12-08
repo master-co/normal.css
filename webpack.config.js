@@ -7,7 +7,6 @@ const CopyPlugin = require('copy-webpack-plugin');
 const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 
 const src = path.resolve('./src');
-const packagePath = path.join(src, 'package.json');
 const assets = require('./assets.json');
 
 module.exports = env => {
