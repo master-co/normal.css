@@ -1,5 +1,4 @@
 {
-    "pkgRoot": "dist",
     "plugins": [
         [
             "@semantic-release/commit-analyzer",
@@ -39,11 +38,16 @@
             "@semantic-release/github",
             {
                 "assets": [
-                    "dist/**/*"
+                    "dist/**/*.{js,css}"
                 ]
             }
         ],
-        "@semantic-release/npm"
+        [
+            "@semantic-release/npm",
+            {
+                "pkgRoot": "dist"
+            }
+        ]
     ],
     "branches": [
         "+([0-9])?(.{+([0-9]),x}).x",
