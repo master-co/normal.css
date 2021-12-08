@@ -3,6 +3,7 @@
     <img src="https://raw.githubusercontent.com/master-style/package/document/images/logo-and-text.svg" alt="logo" width="142">
 </p>
 <p align="center">
+<<<<<<< HEAD
     <b>normal.css</b>
 </p>
 <p align="center">Normalize browser's styles with less than 1KB css</p>
@@ -18,10 +19,27 @@
 
 ###### CONTENTS
 - [Feature](#feature)
+=======
+    <b>{{ PACKAGE_NAME }}</b>
+</p>
+<p align="center">{{ package.description }}</p>
+<p align="center">
+<a href="https://circleci.com/gh/{{ ORG_NAME }}/workflows/{{ PACKAGE_NAME }}/tree/main">
+<img src="https://img.shields.io/circleci/build/github/{{ ORG_NAME }}/{{ PACKAGE_NAME }}/main.svg?logo=circleci&logoColor=fff&label=CircleCI" alt="CI status" />
+</a>&nbsp;
+<a href="https://www.npmjs.com/{{ package.name }}">
+<img src="https://img.shields.io/npm/v/{{ package.name }}.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
+</a>&nbsp;
+<a href="https://github.com/{{ ORG_NAME }}/{{ PACKAGE_NAME }}/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/{{ ORG_NAME }}/{{ PACKAGE_NAME }}"></a>
+</p>
+
+###### CONTENTS
+>>>>>>> package/css
 - [Install](#install)
   - [CDN](#cdn)
 - [Usage](#usage)
 
+<<<<<<< HEAD
 # Feature
 - Less than **< 1 KB**
 - Geometric precision rendering for prettier text
@@ -47,4 +65,17 @@ npm install @master/normal.css
 # Usage
 ```css
 @import '@master/normal.css';
+=======
+# Install
+```sh
+npm install {{ package.name }}
+```
+## CDN
+- [jsdelivr](https://www.jsdelivr.com/package/npm/{{ package.name }})
+- [unpkg](https://unpkg.com/{{ package.name }})
+
+# Usage
+```css
+@import '{{ package.name }}';
+>>>>>>> package/css
 ```

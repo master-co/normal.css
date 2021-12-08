@@ -1,8 +1,8 @@
 {
     "scripts": {
-        "update": "git fetch && git merge package/css",
+        "update": "git fetch package css && git merge package/css",
         "build": "npm i && cd src && npm i && cd ../ && webpack",
-        "release": "semantic-release || true"
+        "release": "npm i semantic-release@18 @semantic-release/exec@6 && semantic-release || true"
     },
     "dependencies": {
         "autoprefixer": "^10.4.0",
@@ -13,7 +13,6 @@
         "postcss-loader": "^6.2.1",
         "sass": "^1.44.0",
         "sass-loader": "^12.3.0",
-        "semantic-release": "^18.0.1",
         "style-loader": "^3.3.1",
         "webpack": "^5.64.4",
         "webpack-cli": "^4.9.1",

@@ -34,6 +34,12 @@
             {
                 "pkgRoot": "dist"
             }
+        ],
+        [
+            "@semantic-release/exec",
+            {
+                "prepareCmd": "npm run build"
+            }
         ]
     ],
     "branches": [
