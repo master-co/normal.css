@@ -1,6 +1,26 @@
+<div style="text-align:center;margin-bottom:1rem">
+
+<img src="https://raw.githubusercontent.com/master-style/package/document/images/logo-and-text.svg" alt="logo" width="142" style="margin: 1rem">
+
+<div style="display:inline-block;border:1px solid;padding:0 0.375rem;font-weight:bold;margin-bottom:.5rem;border-radius:3px">
+    normal.css
+</div>
+
+Normalize browser's styles with less than 1KB css
+
+<a href="https://circleci.com/gh/master-style/workflows/normal.css/tree/main">
+<img src="https://img.shields.io/circleci/build/github/master-style/normal.css/main.svg?logo=circleci&logoColor=fff&label=CircleCI" alt="CI status" />
+</a>&nbsp;
+<a href="https://www.npmjs.com/@master/normal.css">
+<img src="https://img.shields.io/npm/v/@master/normal.css.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
+</a>&nbsp;
+<a href="https://github.com/master-style/normal.css/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/master-style/normal.css"></a>
+</div>
+
 ###### CONTENTS
 - [Feature](#feature)
 - [Install](#install)
+  - [CDN](#cdn)
 - [Usage](#usage)
 
 # Feature
@@ -21,6 +41,9 @@
 ```sh
 npm install @master/normal.css
 ```
+## CDN
+- [jsdelivr](https://www.jsdelivr.com/package/npm/@master/normal.css)
+- [unpkg](https://unpkg.com/@master/normal.css)
 
 # Usage
 ```css
