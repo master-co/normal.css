@@ -1,4 +1,8 @@
 {
+    "name": "normal.css",
+    "github": {
+        "name": "master-style"
+    },
     "assets": [
         "src/package.json",
         "README*",
