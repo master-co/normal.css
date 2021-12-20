@@ -11,9 +11,6 @@
 </p>
 
 ###### CONTENTS
-- [Feature](#feature)
-- [Install](#install)
-  - [CDN](#cdn)
 - [Usage](#usage)
 
 # Feature
@@ -29,6 +26,7 @@
 - `-webkit-tap-highlight-color: transparent`
 - `text-size-adjust: 100%`
 - `font-weight: bolder`
+- `--font-mono`, `--font-sans`, `--font-serif`
 
 # Install
 ```sh
