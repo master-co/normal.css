@@ -5,7 +5,7 @@
 <p align="center">
     <b><!-- name -->normal.css<!----></b>
 </p>
-<p align="center"><!-- package.description -->Normalize browser's styles with less than 1KB css<!----></p>
+<p align="center"><!-- package.description -->Normalize browser's styles with less than 2KB<!----></p>
 <p align="center">
 <!-- badges.map((badge) => `<a href="${badge.href}"><img src="${badge.src}" alt="${badge.alt}"></a>`).join('&nbsp;')--><a href="https://circleci.com/gh/master-style/workflows/normal.css/tree/main"><img src="https://img.shields.io/circleci/build/github/master-style/normal.css/main.svg?logo=circleci&logoColor=fff&label=CircleCI" alt="CI status"></a>&nbsp;<a href="https://www.npmjs.com/@master/normal.css"><img src="https://img.shields.io/npm/v/@master/normal.css.svg?logo=npm&logoColor=fff&label=NPM&color=limegreen" alt="npm"></a>&nbsp;<a href="https://github.com/master-style/normal.css/blob/main/LICENSE"><img src="https://img.shields.io/github/license/master-style/normal.css" alt="license"></a><!---->
 </p>
@@ -14,11 +14,11 @@
 - [Usage](#usage)
 
 # Feature
-- Less than **< 1 KB**
+- Less than **< 2 KB**
 - Geometric precision rendering for prettier text
 - Antialiased font smoothing looks great
 - Prettier default `sans` and `mono` font
-- Removing body `margin: 0`
+- Set most tags `margin: 0` and `padding: 0`
 - Providing `:root` variable: `--font-mono`, `--font-sans`, `--font-serif`
 - Globaly `box-sizing: border-box`
 - Globaly `border: 0`
@@ -28,6 +28,7 @@
 - `-webkit-tap-highlight-color: transparent`
 - `text-size-adjust: 100%`
 - `font-weight: bolder`
+- ... other
 
 # Install
 ```sh

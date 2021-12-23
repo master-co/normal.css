@@ -1,7 +1,7 @@
 {
     "name": "@master/normal.css",
     "license": "MIT",
-    "description": "Normalize browser's styles with less than 1KB css",
+    "description": "Normalize browser's styles with less than 2KB",
     "author": "Aoyue Design LTD.",
     "main": "index.css",
     "private": false,
