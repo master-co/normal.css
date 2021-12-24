@@ -18,7 +18,7 @@
 - Geometric precision rendering for prettier text
 - Antialiased font smoothing looks great
 - Prettier default `sans` and `mono` font
-- Set most tags `margin: 0` and `padding: 0`
+- Set most tags to `margin: 0` and `padding: 0`
 - Providing `:root` variable: `--font-mono`, `--font-sans`, `--font-serif`
 - Globaly `box-sizing: border-box`
 - Globaly `border: 0`
@@ -28,6 +28,7 @@
 - `-webkit-tap-highlight-color: transparent`
 - `text-size-adjust: 100%`
 - `font-weight: bolder`
+- Set `img, svg, video, canvas, audio, iframe, embed, object` to `display: block`
 - ... other
 
 # Install

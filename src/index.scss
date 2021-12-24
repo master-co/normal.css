@@ -73,6 +73,17 @@ fieldset {
     padding: 0;
 }
 
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+}
+
 ul,
 ol {
     margin: 0;
