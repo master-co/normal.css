@@ -22,6 +22,7 @@
 - Providing `:root` variable: `--font-mono`, `--font-sans`, `--font-serif`
 - Globaly `box-sizing: border-box`
 - Globaly `border: 0`
+- Set controls `color: inherit`
 - `line-height: 1.2`
 - `tab-size: 4`
 - `-webkit-touch-callout: none`
