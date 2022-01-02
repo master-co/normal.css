@@ -23,6 +23,7 @@
 - Globaly `box-sizing: border-box`
 - Globaly `border: 0`
 - Set controls `color: inherit`
+- Set `a, button, [role=button], [type=button]` property `cursor: pointer`
 - `line-height: 1.2`
 - `tab-size: 4`
 - `-webkit-touch-callout: none`
