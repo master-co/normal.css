@@ -145,6 +145,12 @@ select {
     text-transform: none;
 }
 
+a,
+[role=button],
+button {
+    cursor: pointer;
+}
+
 ::-moz-focus-inner {
     border-style: none;
     padding: 0;
