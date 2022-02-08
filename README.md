@@ -1,3 +1,16 @@
+<br><br>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/master-co/package/document/images/logo-and-text.svg" alt="logo" width="142">
+</p>
+<p align="center">
+    <b><!-- name --><!-- --></b>
+</p>
+<p align="center"><!-- package.description -->Normalize browser's styles with less than 1KB css<!-- --></p>
+<p align="center">
+<!-- badges.map((badge) => `<a href="${badge.href}"><img src="${badge.src}" alt="${badge.alt}"></a>`).join('&nbsp;')-->
+<!-- -->
+</p>
+
 ###### CONTENTS
 - [Feature](#feature)
 - [Install](#install)
@@ -25,4 +38,3 @@ npm install @master/normal.css
 # Usage
 ```css
 @import '@master/normal.css';
-```

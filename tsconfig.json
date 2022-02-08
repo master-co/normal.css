@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "sourceMap": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "es2015",
+        "module": "es2020",
+        "skipLibCheck": true,
+        "lib": [
+            "es2018",
+            "dom"
+        ]
+    },
+    "include": [
+        "./src/**/*index.ts",
+        "./src/**/*.d.ts",
+        "./dev/src/**/*index.ts",
+        "./dev/src/**/*.d.ts"
+    ],
+    "exclude": [
+        "./src/node_modules"
+    ]
+}
