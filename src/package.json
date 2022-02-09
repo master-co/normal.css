@@ -5,10 +5,10 @@
     "author": "Aoyue Design LTD.",
     "main": "index.css",
     "private": false,
-    "funding": "https://opencollective.com/master-style",
+    "funding": "https://opencollective.com/master-co",
     "repository": {
         "type": "git",
-        "url": "https://github.com/master-style/normal.css.git"
+        "url": "https://github.com/master-co/normal.css.git"
     },
     "keywords": [
         "normalize",
