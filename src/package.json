@@ -1,8 +1,8 @@
 {
     "name": "@master/normal.css",
     "license": "MIT",
-    "description": "Normalize browser's styles with less than 2KB",
-    "author": "Aoyue Design LTD.",
+    "description": "Normalize browser's styles with less than 1KB",
+    "author": "Aoyue Design LLC.",
     "main": "index.css",
     "private": false,
     "funding": "https://opencollective.com/master-co",
