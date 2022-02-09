@@ -31,7 +31,7 @@
 - `text-size-adjust: 100%`
 - `font-weight: bolder`
 - Set `img, svg, video, canvas, audio, iframe, embed, object` to `display: block`
-- ... other
+- ... [check source code](https://github.com/master-co/normal.css/blob/main/src/index.scss)
 
 # Install
 ```sh
