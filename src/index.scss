@@ -154,9 +154,9 @@ select {
 }
 
 a,
-[type=button],
+[type=button]:not([disabled]),
 [role=button],
-button {
+button:not([disabled]) {
     cursor: pointer;
 }
 
