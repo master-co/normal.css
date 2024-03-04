@@ -9,11 +9,11 @@
     "funding": "https://docs.master.co/css/donate",
     "homepage": "https://css.master.co",
     "bugs": {
-        "url": "https://github.com/master-co/css/issues"
+        "url": "https://github.com/master-co/normal.css/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/master-co/css.git",
+        "url": "https://github.com/master-co/normal.css.git",
         "directory": "packages/core"
     },
     "keywords": [
