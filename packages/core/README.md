@@ -8,7 +8,7 @@
         <img alt="Master CSS" src="https://user-images.githubusercontent.com/33840671/201703010-77bf2373-9899-40cc-98f5-30cf9b546941.svg" width="100%">
     </picture>
 </p>
-<p align="center">Normalize the browser's styles ~600B</p>
+<p align="center">Normalize browser's styles ~600B</p>
 
 <p align="center">
     <a aria-label="overview" href="https://github.com/master-co/normal.css/tree/rc">
