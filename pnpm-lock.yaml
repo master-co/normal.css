@@ -14,9 +14,9 @@ importers:
     devDependencies:
       '@master/normal.css':
         specifier: workspace:^
-        version: link:packages/normal.css
+        version: link:packages/core
 
-  packages/normal.css: {}
+  packages/core: {}
 
 packages:
 
