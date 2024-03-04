@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "postinstall": "pnpm dlx husky install",
-        "build": "pnpm --filter \"./packages/*\" build"
+        "build": "pnpm --filter \"./packages/*\" build",
+        "check:commit": "commitlint --from=HEAD~1 --verbose"
     },
     "packageManager": "^pnpm@8.15.3",
     "engines": {
