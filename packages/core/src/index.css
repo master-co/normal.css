@@ -8,6 +8,7 @@
 /* consistent */
 @import '../consistent-abbreviation-styles.css';
 @import '../consistent-bold-styles.css';
+@import '../consistent-code-styles.css';
 @import '../consistent-control-styles.css';
 @import '../consistent-horizontal-lines.css';
 @import '../consistent-small-styles.css';
