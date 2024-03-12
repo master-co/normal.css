@@ -1,7 +1,7 @@
 {
     "name": "@master/normal.css",
     "scripts": {
-        "build": "lightningcss src/index.css -o dist/index.css --minify --bundle"
+        "build": "postcss src/index.css -o dist/index.css"
     },
     "license": "MIT",
     "description": "Normalize browser's styles ~600B",

@@ -19,6 +19,9 @@
     },
     "dependencies": {
         "@techor/repo": "^3.0.17",
-        "lightningcss-cli": "^1.24.0"
+        "cssnano": "^6.1.0",
+        "postcss-cli": "^11.0.0",
+        "postcss-combine-duplicated-selectors": "^10.0.3",
+        "postcss-import": "^16.0.1"
     }
 }
