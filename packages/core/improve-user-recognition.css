@@ -1,6 +1,7 @@
 [role=button], summary,
 :where(button, [type=button]):not([disabled]) {
     cursor: pointer;
+    -webkit-user-select: none;
     user-select: none;
 }
 
