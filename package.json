@@ -6,7 +6,6 @@
         "build": "pnpm --filter \"./packages/*\" build",
         "check:commit": "commitlint --from=HEAD~1 --verbose"
     },
-    "packageManager": "^pnpm@8.15.3",
     "engines": {
         "node": "^20"
     },
@@ -18,10 +17,11 @@
         "@master/normal.css": "workspace:^"
     },
     "dependencies": {
-        "@techor/repo": "^3.0.17",
-        "cssnano": "^6.1.0",
+        "@techor/repo": "^3.0.21",
+        "cssnano": "^7.0.1",
+        "postcss-assign-layer": "^0.3.0",
         "postcss-cli": "^11.0.0",
         "postcss-combine-duplicated-selectors": "^10.0.3",
-        "postcss-import": "^16.0.1"
+        "postcss-import": "^16.1.0"
     }
 }
