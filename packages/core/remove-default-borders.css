@@ -1,3 +1,4 @@
 *, ::before, ::after {
-    border: 0 solid;
+    border-width: 0;
+    border-style: solid;
 }

@@ -68,7 +68,8 @@
 - Antialiased font smoothing looks great
 - Set most tags to `margin: 0` and `padding: 0`
 - Globaly `box-sizing: border-box`
-- Globaly `border: 0`
+- Globaly `border-width: 0`
+- Globaly `border-style: solid`
 - Set controls `color: inherit`
 - Set `a, button, [role=button], [type=button]` property `cursor: pointer`
 - `line-height: 1.2`
