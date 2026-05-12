@@ -15,6 +15,7 @@
 @import '../consistent-small-styles.css';
 @import '../consistent-superscript-subscript.css';
 @import '../consistent-table-styles.css';
+@import '../consistent-fonts.css';
 
 /* remove */
 @import '../remove-anchor-styles.css';
@@ -24,3 +25,5 @@
 @import '../remove-tap-highlight.css';
 @import '../remove-list-styles.css';
 @import '../remove-heading-styles.css';
+
+@import '../hidden-attribute.css';

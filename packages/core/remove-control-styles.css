@@ -1,5 +1,7 @@
 button, input, optgroup, select, textarea {
-    font-family: inherit;
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
     font-size: 100%;
     margin: 0;
     padding: 0;
